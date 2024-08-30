@@ -1,7 +1,5 @@
 let codigoEntrada = document.getElementById("codigoBarras");
-document.getElementById('codigoBarras').addEventListener('input', function (e) {
-    this.value = this.value.replace(/[^0-9]/g, '');
-});
+
 function adicionarLinha(){
     let tabela = document.getElementById("listaDeEntradas").getElementsByTagName('tbody')[0];
     let mensagemErro = "Por favor, preencha os dados ou scaneie o código de barras: \n";
