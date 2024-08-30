@@ -1,0 +1,183 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(36, 6, 146);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #fcfcfc;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.loginContainer input,
+.loginContainer button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.loginContainer button:hover {
+    background-color: #443aca;
+}
+
+.imagemContainer img {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo geral do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Estilo para as checkboxes alinhadas horizontalmente *
+
+/* Estilo para a imagem */
+.imagemContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagemContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#sendButton {
+    display: block; 
+    background-color: #200991;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/* Centraliza a tabela e o botão na tela */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Estilo da tabela */
+.listaDeEntradas {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #002147;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Cabeçalho da tabela */
+.listaDeEntradas th {
+    background-color: #002147; /* Azul bem escuro */
+    color: white;
+    padding: 15px 20px;
+    border-right: 1px solid #002147;
+}
+
+/* Remove a borda direita da última célula do cabeçalho */
+.listaDeEntradas th:last-child {
+    border-right: none;
+}
+
+/* Linhas da tabela com cores alternadas */
+.listaDeEntradas tbody tr:nth-child(odd) {
+    background-color: #003366; /* Azul escuro */
+    color: white;
+}
+
+.listaDeEntradas tbody tr:nth-child(even) {
+    background-color: #1a1f71; /* Azul um pouco menos escuro */
+    color: white;
+}
+
+/* Células da tabela */
+.listaDeEntradas td {
+    text-align: center;
+    padding: 15px 20px;
+    border-right: 1px solid #002147;
+    border-bottom: 1px solid #002147;
+    min-width: 150px;
+}
+
+/* Remove a borda direita da última célula de cada linha */
+.listaDeEntradas td:last-child {
+    border-right: none;
+}
+
+/* Bordas arredondadas para o primeiro e o último tr */
+.listaDeEntradas tbody tr:first-child td:first-child {
+    border-top-left-radius: 15px; /* Canto superior esquerdo */
+}
+
+.listaDeEntradas tbody tr:first-child td:last-child {
+    border-top-right-radius: 15px; /* Canto superior direito */
+}
+
+.listaDeEntradas tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 15px; /* Canto inferior esquerdo */
+}
+
+.listaDeEntradas tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 15px; /* Canto inferior direito */
+}
+
+/* Centraliza o botão To JSON */
+.toLocalStorage {
+    background-color: #002147;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.toLocalStorage:hover {
+    background-color: #003366; /* Cor mais escura ao passar o mouse */
+}

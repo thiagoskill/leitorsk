@@ -1,0 +1,31 @@
+<head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="CSS/Login.CSS">
+    <title>Leitor de Malotes</title>
+</head>
+<body>
+    <div class="content">
+        <div class="loginContainer">
+            <h3>Leitor de código de barras</h3>
+            <label for="codigoBarras">Leia ou digite o código de barras</label>
+            <input type="text" name="codigoBarras" id="codigoBarras" inputmode="numeric" pattern="[0-9]*">
+            <button id="sendButton" onclick="adicionarLinha()">Enviar</button>
+        </div>
+        <div>
+            <table id="listaDeEntradas" class="listaDeEntradas">
+            <thead>
+                <tr>
+                    <th>Entrada</th>
+                    <th>Data</th>
+                    <th>Remover</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Linhas dinamicas entram aqui -->
+            </tbody>
+            </table>
+            <button onclick="enviaTabela()" class="toLocalStorage">Enviar Relatório de Malotes</button>
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
