@@ -10,7 +10,7 @@ function adicionarLinha(){
         camposFaltando = true;
     }
 
-    if(camposFaltando) {
+    if(camposFaltando == true) {
         alert(mensagemErro);  // Mostra uma mensagem de erro, caso necessário
         return;
     } else {
