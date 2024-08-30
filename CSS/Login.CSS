@@ -181,3 +181,15 @@ select {
 .toLocalStorage:hover {
     background-color: #003366; /* Cor mais escura ao passar o mouse */
 }
+.mensagem {
+    position: fixed; /* Fixa a div em uma posição relativa à janela do navegador */
+    bottom: 0; /* Coloca a div na parte inferior da tela */
+    left: 0; /* Alinha a div à esquerda da tela */
+    width: 100%; /* Faz a div ocupar toda a largura da tela */
+    background-color: #333; /* Define uma cor de fundo para a div */
+    color: white; /* Define a cor do texto como branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Adiciona um espaçamento interno */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra para dar destaque */
+    z-index: 1000; /* Garante que a div fique acima de outros elementos */
+}
